@@ -90,16 +90,6 @@ Steps:
 
 A typical alert generated during this lab is related to Nmap scanning activity.
 
-## Project Structure
-
-wazuh-suricata-nids-lab
-├── README.md
-├── suricata-installation.md
-├── attack-testing.md
-
-
-The screenshots directory contains evidence of the lab including the Suricata service status and alerts visible in the Wazuh dashboard.
-
 ## Learning Outcome
 
 After completing this lab, the following concepts were understood:
