@@ -1,0 +1,44 @@
+### Attack Simulation Commands
+
+The following commands were used to generate malicious traffic and test detection capabilities of Suricata IDS.
+
+## 1. Nmap Port Scan
+   
+   * nmap TARGET_IP
+
+## 2. Aggressive Scan
+
+   * nmap -A TARGET_IP
+
+## 3. SYN Stealth Scan
+
+   * nmap -sS TARGET_IP
+
+## 4. Ping Flood
+
+   * ping -f TARGET_IP
+
+## 5. SSH Brute Force
+
+  * hydra -l ubuntu -P /usr/share/wordlists/rockyou.txt TARGET_IP ssh
+
+## 6. FTP Brute Force
+
+  * hydra -l ftpuser -P /usr/share/wordlists/rockyou.txt TARGET_IP ftp
+
+## 7. DNS Request
+
+  * nslookup google.com
+
+## 8. DNS Query
+
+  * dig github.com
+
+## 9. HTTP Request
+
+   * curl http://TARGET_IP
+
+## 10. Network Discovery
+
+   * netdiscover -r NETWORK_RANGE
+
